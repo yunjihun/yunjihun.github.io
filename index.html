@@ -12,8 +12,8 @@
 	</body>
 </html>
 
-<form method="get" action="/save.php">
-  Image URL<br />
-  <input type="text" name="keyword" />
-<button type="submit">SEARCH</button>
+Input Your Image <br />
+<form action="/action_page.php" method="post" enctype="multipart/form-data">
+    <input type="file" name="pic" accept="image/*">
+    <input type="submit">
 </form>
