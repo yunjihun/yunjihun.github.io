@@ -1,19 +1,12 @@
+<!DOCTYPE HTML>
+<html lang="ko">
+<head>
 
-<!DOCTYPE html>
-<html>
-	<head>
-		<title>Result</title>
-	</head>
-	<body><h1>Chung Choon Rocket </h1>
-	<img src="https://ifh.cc/g/8WZEz.jpg" width="200" height="200">
-		<p>201315298 Jung Sung min</p>
-		<p>And 201311236 YunJihun </p>
-		<p>Project</p>
-	</body>
-</html>
 
-Input Your Image <br />
-<form action="/action_page.php" method="post" enctype="multipart/form-data">
-    <input type="file" name="pic" accept="image/*">
-    <input type="submit">
+
+<form name="googleImageSearch" method="get" action="https://www.google.com/searchbyimage">
+    <input name="image_url" value="<?=$url;?>" spellcheck="false">
 </form>
+
+</body>
+</html>
